@@ -1,0 +1,32 @@
+@import "~bulma/sass/utilities/initial-variables"
+@import "~bulma/sass/utilities/functions"
+
+$tablet: 768px !default
+// 960px container + 40px
+$desktop: 992px !default
+// 1152px container + 40
+$widescreen: 1200px !default
+// 1344px container + 40
+$fullhd: 1384px !default
+
+$turquoise: #1091D1
+$blue: #132F4A
+$yellow: #f3b50e
+$yellow-invert: $white
+$light: #aaaaaa
+$light-invert: $white
+
+$primary: $blue
+$info: $turquoise
+//$success: #000000
+$warning: $yellow
+//$danger: $dang
+
+body, img, button, input, select, textarea
+  transition: all .2s linear
+  -o-transition: all .2s linear
+  -moz-transition: all .2s linear
+  -webkit-transition: all .2s linear
+  font-family: -apple-system,Roboto,Helvetica,Arial,BlinkMacSystemFont,"Segoe UI",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important
+
+@import "~bulma"
